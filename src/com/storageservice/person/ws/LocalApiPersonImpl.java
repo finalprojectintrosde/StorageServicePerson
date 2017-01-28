@@ -84,7 +84,7 @@ p.setPassword(jobj.getString("password"));
 
 			String str ="{\"lastname\":\""+p.getLastname()+"\",\"firstname\":\""+p.getfirstname()+"\",\"birthdate\":\""+p.getBirthdate()+"\","
 					+ "\"email\":\""+p.getEmail()+"\",\"genre\":\""+p.getGenre()+"\",\"password\":\""+p.getPassword()+"\",\"idLifeStyle\":"+p.getIdLifeStyle()+","
-							+ "\"idLevel\":"+p.getIdLevel()+"}";
+							+ "\"idLevel\":1}";
 							
 
 			byte[] outputInBytes = str.getBytes("UTF-8");
